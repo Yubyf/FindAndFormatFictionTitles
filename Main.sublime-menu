@@ -1,0 +1,52 @@
+[
+	{
+		"id": "edit",
+		"children":
+		[
+			{
+				"caption": "小说 html 格式化",
+				"children":
+				[
+					{ "caption": "标题只有章节", "command": "format_fiction", "args": {"TopTitle": "NoneTopTitle", "topTitlesFormat": "topTitlesCN" } },
+					{ "caption": "卷标章节同行，格式：一、二、三...", "command": "format_fiction", "args": {"TopTitle": "withChapter", "topTitlesFormat": "topTitlesCN" } },
+					{ "caption": "卷标章节同行，格式：1、2、3...", "command": "format_fiction", "args": {"TopTitle": "withChapter", "topTitlesFormat": "topTitlesNum" } },
+					{ "caption": "卷标章节异行，格式：一、二、三...", "command": "format_fiction", "args": {"TopTitle": "withOutChapter", "topTitlesFormat": "topTitlesCN" } },
+					{ "caption": "卷标章节异行，格式：1、2、3...", "command": "format_fiction", "args": {"TopTitle": "withOutChapter", "topTitlesFormat": "topTitlesNum" } }
+				]
+			}
+		]
+	}
+	// {
+	// 	"id": "preferences",
+	// 	"children":
+	// 	[
+	// 		{
+	// 			"id": "package-settings",
+	// 			"children":
+	// 			[
+	// 				{
+	// 					"caption": "ConvertToUTF8",
+	// 					"children":
+	// 					[
+	// 						{
+	// 							"command": "open_file", "args":
+	// 							{
+	// 								"file": "${packages}/ConvertToUTF8/ConvertToUTF8.sublime-settings"
+	// 							},
+	// 							"caption": "Settings – Default"
+	// 						},
+	// 						{
+	// 							"command": "open_file", "args":
+	// 							{
+	// 								"file": "${packages}/User/ConvertToUTF8.sublime-settings"
+	// 							},
+	// 							"caption": "Settings – User"
+	// 						},
+	// 						{ "caption": "-" }
+	// 					]
+	// 				}
+	// 			]
+	// 		}
+	// 	]
+	// }
+]
